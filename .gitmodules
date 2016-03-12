@@ -2,3 +2,7 @@
 	path = src/cob_common
 	url = https://github.com/ipa320/cob_common.git
 	branch = hydro_release_candidate
+[submodule "src/hokuyo_node"]
+	path = src/hokuyo_node
+	url = https://github.com/ros-drivers/hokuyo_node
+	branch = indigo-devel
