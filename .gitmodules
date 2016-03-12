@@ -1,0 +1,4 @@
+[submodule "src/cob_common"]
+	path = src/cob_common
+	url = https://github.com/ipa320/cob_common.git
+	branch = hydro_release_candidate
