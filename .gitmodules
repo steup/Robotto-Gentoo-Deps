@@ -6,3 +6,38 @@
 	path = src/hokuyo_node
 	url = https://github.com/ros-drivers/hokuyo_node
 	branch = indigo-devel
+[submodule "src/household_objects_database_msgs"]
+	path = src/household_objects_database_msgs
+	url = https://github.com/ros-interactive-manipulation/household_objects_database_msgs
+	branch = hydro-devel
+[submodule "src/manipulation_msgs"]
+	path = src/manipulation_msgs
+	url = https://github.com/ros-interactive-manipulation/manipulation_msgs.git
+	branch = hydro-devel
+[submodule "src/moveit_core"]
+	path = src/moveit_core
+	url = https://github.com/ros-planning/moveit_core.git
+	branch = indigo-devel
+[submodule "src/moveit_msgs"]
+	path = src/moveit_msgs
+	url = https://github.com/ros-planning/moveit_msgs
+	branch = indigo-devel
+[submodule "src/moveit_ros"]
+	path = src/moveit_ros
+	url = https://github.com/ros-planning/moveit_ros.git
+	branch = indigo-devel
+[submodule "src/pointcloud_to_laserscan"]
+	path = src/pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan
+	branch = indigo-devel
+[submodule "src/srdfdom"]
+	path = src/srdfdom
+	url = https://github.com/ros-planning/srdfdom.git
+	branch = indigo-devel
+[submodule "src/urdf_parser_py"]
+	path = src/urdf_parser_py
+	url = https://github.com/ros/urdf_parser_py.git
+	branch = indigo-devel
+[submodule "src/warehouse_ros"]
+	path = src/warehouse_ros
+	url = https://github.com/ros-planning/warehouse_ros.git
