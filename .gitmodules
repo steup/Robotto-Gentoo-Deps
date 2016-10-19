@@ -17,3 +17,6 @@
 [submodule "src/warehouse_ros"]
 	path = src/warehouse_ros
 	url = https://github.com/ros-planning/warehouse_ros.git
+[submodule "ompl"]
+	path = ompl
+	url = https://github.com/ompl/ompl.git
