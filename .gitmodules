@@ -20,3 +20,15 @@
 [submodule "ompl"]
 	path = ompl
 	url = https://github.com/ompl/ompl.git
+[submodule "src/hokuyo_node"]
+	path = src/hokuyo_node
+	url = ssh://git@robotto.cs.ovgu.de/development/remote/hokuyo_node.git
+[submodule "src/driver_common"]
+	path = src/driver_common
+	url = ssh://git@robotto.cs.ovgu.de/development/remote/driver_common.git
+[submodule "src/cob_common"]
+	path = src/cob_common
+	url = ssh://git@robotto.cs.ovgu.de/development/remote/cob_common.git
+[submodule "src/moveit"]
+	path = src/moveit
+	url = ssh://git@robotto.cs.ovgu.de/development/remote/moveit.git
