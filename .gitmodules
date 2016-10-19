@@ -32,3 +32,9 @@
 [submodule "src/moveit"]
 	path = src/moveit
 	url = ssh://git@robotto.cs.ovgu.de/development/remote/moveit.git
+[submodule "src/geometric_shapes"]
+	path = src/geometric_shapes
+	url = https://github.com/ros-planning/geometric_shapes.git
+[submodule "src/moveit_resources"]
+	path = src/moveit_resources
+	url = https://github.com/ros-planning/moveit_resources.git
