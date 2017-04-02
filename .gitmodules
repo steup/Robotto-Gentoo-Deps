@@ -17,6 +17,9 @@
 [submodule "src/warehouse_ros"]
 	path = src/warehouse_ros
 	url = https://github.com/ros-planning/warehouse_ros.git
-[submodule "ompl"]
-	path = ompl
-	url = https://github.com/ompl/ompl.git
+[submodule "src/moveit_resources"]
+	path = src/moveit_resources
+	url = https://github.com/ros-planning/moveit_resources.git
+[submodule "src/joystick_drivers"]
+	path = src/joystick_drivers
+	url = https://github.com/ros-drivers/joystick_drivers.git
