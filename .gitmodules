@@ -10,10 +10,6 @@
 	path = src/srdfdom
 	url = https://github.com/ros-planning/srdfdom.git
 	branch = indigo-devel
-[submodule "src/urdf_parser_py"]
-	path = src/urdf_parser_py
-	url = https://github.com/ros/urdf_parser_py.git
-	branch = indigo-devel
 [submodule "src/warehouse_ros"]
 	path = src/warehouse_ros
 	url = https://github.com/ros-planning/warehouse_ros.git
@@ -23,3 +19,10 @@
 [submodule "src/joystick_drivers"]
 	path = src/joystick_drivers
 	url = https://github.com/ros-drivers/joystick_drivers.git
+[submodule "src/moveit"]
+	path = src/moveit
+	url = https://github.com/ros-planning/moveit.git
+[submodule "src/urdf_parser_py"]
+	path = src/urdf_parser_py
+	url = https://github.com/ros/urdf_parser_py
+	branch = melodic-devel
