@@ -1,0 +1,2 @@
+dev-util/cmake system-jsoncpp -ncurses -qt5
+media-libs/opencv contrib

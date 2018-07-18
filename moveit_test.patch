@@ -1,0 +1,54 @@
+diff --git a/moveit_core/constraint_samplers/CMakeLists.txt b/moveit_core/constraint_samplers/CMakeLists.txt
+index 33e2cce71..d1652f45e 100644
+--- a/moveit_core/constraint_samplers/CMakeLists.txt
++++ b/moveit_core/constraint_samplers/CMakeLists.txt
+@@ -23,26 +23,26 @@ install(TARGETS ${MOVEIT_LIB_NAME}
+ 
+ install(DIRECTORY include/ DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION})
+ 
+-if(CATKIN_ENABLE_TESTING)
+-  find_package(orocos_kdl REQUIRED)
+-  find_package(angles REQUIRED)
+-  find_package(tf_conversions REQUIRED)
+-  find_package(moveit_resources REQUIRED)
+-
+-  include_directories(${orocos_kdl_INCLUDE_DIRS} ${angles_INCLUDE_DIRS} ${tf_conversions_INCLUDE_DIRS} ${moveit_resources_INCLUDE_DIRS})
+-
+-  catkin_add_gtest(test_constraint_samplers
+-    test/test_constraint_samplers.cpp
+-    test/pr2_arm_kinematics_plugin.cpp
+-    test/pr2_arm_ik.cpp
+-  )
+-  target_link_libraries(test_constraint_samplers
+-    ${MOVEIT_LIB_NAME}
+-    ${catkin_LIBRARIES}
+-    ${angles_LIBRARIES}
+-    ${orocos_kdl_LIBRARIES}
+-    ${tf_conversions_LIBRARIES}
+-    ${urdfdom_LIBRARIES}
+-    ${urdfdom_headers_LIBRARIES}
+-  )
+-endif()
++#if(CATKIN_ENABLE_TESTING)
++#  find_package(orocos_kdl REQUIRED)
++#  find_package(angles REQUIRED)
++#  find_package(tf_conversions REQUIRED)
++#  find_package(moveit_resources REQUIRED)
++#
++#  include_directories(${orocos_kdl_INCLUDE_DIRS} ${angles_INCLUDE_DIRS} ${tf_conversions_INCLUDE_DIRS} ${moveit_resources_INCLUDE_DIRS})
++#
++#  catkin_add_gtest(test_constraint_samplers
++#    test/test_constraint_samplers.cpp
++#    test/pr2_arm_kinematics_plugin.cpp
++#    test/pr2_arm_ik.cpp
++#  )
++#  target_link_libraries(test_constraint_samplers
++#    ${MOVEIT_LIB_NAME}
++#    ${catkin_LIBRARIES}
++#    ${angles_LIBRARIES}
++#    ${orocos_kdl_LIBRARIES}
++#    ${tf_conversions_LIBRARIES}
++#    ${urdfdom_LIBRARIES}
++#    ${urdfdom_headers_LIBRARIES}
++#  )
++#endif()
